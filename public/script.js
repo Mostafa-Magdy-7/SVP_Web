@@ -29,9 +29,13 @@ function downloadwindow() {
     const win = document.getElementById("downloadwin");
     win.style.display = "flex"; // Make it flex when shown
   }
-  
+  function pricewindow() {
+    const win = document.getElementById("pricewin");
+    win.style.display = "flex"; // Make it flex when shown
+  }
 
 
 function closewin() {
     document.getElementById("downloadwin").style.display="none";
+    document.getElementById("pricewin").style.display="none";
   }

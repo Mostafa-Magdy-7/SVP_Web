@@ -66,10 +66,13 @@
   
       
       
-        <div  class=" row firstft mb-3">
-  
-          <div class="col-6 center special-gothic-expanded-one-regular"><p>Trancription</p></div>
-          <div class="col-6 pic1 "><img src="Animation - 1745666132355.gif" alt=""></div>
+        <div class="row firstft mb-3">
+          <div class="col-6 d-flex align-items-center special-gothic-expanded-one-regular">
+            <p>Transcription</p>
+          </div>
+          <div class="col-6 d-flex justify-content-end align-items-end">
+            <img src="Animation - 1745666132355.gif" alt="">
+          </div>
         </div>
   
       
@@ -160,7 +163,7 @@
                 <li>Email support</li>
                 <li>Help center access</li>
               </ul>
-              <button type="button" class="w-100 btn btn-lg btn-outline-dark">Sign up for free</button>
+              <button type="button" class="w-100 btn btn-lg btn-outline-dark" onclick="pricewindow()">Sign up for free</button>
             </div>
           </div>
         </div>
@@ -177,7 +180,7 @@
                 <li>Priority email support</li>
                 <li>Help center access</li>
               </ul>
-              <button type="button" class="w-100 btn btn-lg btn-dark">Get started</button>
+              <button type="button" class="w-100 btn btn-lg btn-dark" onclick="pricewindow()" >Get started</button>
             </div>
           </div>
         </div>
@@ -194,7 +197,7 @@
                 <li>Phone and email support</li>
                 <li>Help center access</li>
               </ul>
-              <button type="button" class="w-100 btn btn-lg btn-dark">Contact us</button>
+              <button type="button" class="w-100 btn btn-lg btn-dark" onclick="pricewindow()">Contact us</button>
             </div>
           </div>
         </div>
@@ -208,7 +211,12 @@
         <h2>Coming soon</h2>
       </div>
     </div>
-    
+    <div id="pricewin">
+      <div class="content">
+        <button onclick="closewin()" class="close" style="float:right; background:none; border:none; font-size:20px; color:white; cursor:pointer;">×</button>
+        <h2>Not Avilable </h2>
+      </div>
+    </div>
       <div class="container">
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
           <p class="col-md-4 mb-0 text-body-dark">© 2025 SVP, Inc</p>
